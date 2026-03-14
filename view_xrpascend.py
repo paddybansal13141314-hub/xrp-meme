@@ -5,13 +5,13 @@ from pathlib import Path
 from xrpl.clients import JsonRpcClient
 from xrpl.models.requests import AccountLines
 
-DEFAULT_SUMMARY_FILE = "xrpepe_launch_output.json"
+DEFAULT_SUMMARY_FILE = "xrpascend_launch_output.json"
 TESTNET_RPC = "https://s.altnet.rippletest.net:51234"
 MAINNET_RPC = "https://xrplcluster.com"
 
 
 def main():
-    summary_file = Path(os.getenv("XRPEPE_SUMMARY_FILE", DEFAULT_SUMMARY_FILE)).resolve()
+    summary_file = Path(os.getenv("XRPASCEND_SUMMARY_FILE", DEFAULT_SUMMARY_FILE)).resolve()
     if not summary_file.exists():
         raise RuntimeError(f"Launch summary file not found: {summary_file}")
 

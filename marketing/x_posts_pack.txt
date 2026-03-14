@@ -1,21 +1,21 @@
-XRpepe - X Post Pack
+XRPASCEND - X Post Pack
 
 Launch Post
-XRpepe is now live on XRPL.
-Name: XRpepe
-Symbol: XRPEPE
+XRPASCEND is now live on XRPL.
+Name: XRPASCEND
+Symbol: XRPASCEND
 Supply: 1,000,000,000
 Fast + low-fee rails on XRPL.
 Track live wallet + tx links below.
 
 Pinned Thread Post 1
-Welcome to XRpepe.
+Welcome to XRPASCEND.
 Built on XRPL for speed, low fees, and transparent on-ledger activity.
 
 Pinned Thread Post 2
 Token facts:
-- Name: XRpepe
-- Symbol: XRPEPE
+- Name: XRPASCEND
+- Symbol: XRPASCEND
 - Supply: 1,000,000,000
 - Network: XRPL
 
@@ -36,9 +36,9 @@ Risk note:
 Memecoins are volatile. Do your own research.
 
 Short Post Variants
-1) XRpepe launched on XRPL. 1B supply. Fast rails, public ledger, transparent moves.
-2) XRPEPE is live. Follow wallet + tx links and weekly updates.
-3) Meme energy + XRPL speed. XRpepe is on-chain now.
+1) XRPASCEND launched on XRPL. 1B supply. Fast rails, public ledger, transparent moves.
+2) XRPASCEND is live. Follow wallet + tx links and weekly updates.
+3) Meme energy + XRPL speed. XRPASCEND is on-chain now.
 
 Hashtag bank
-#XRPL #XRP #XRpepe #memecoin #crypto
+#XRPL #XRP #XRPASCEND #memecoin #crypto

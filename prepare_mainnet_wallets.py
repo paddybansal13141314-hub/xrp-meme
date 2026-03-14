@@ -9,7 +9,7 @@ def main():
     issuer = Wallet.create()
     hot = Wallet.create()
 
-    out_file = Path(os.getenv("WALLET_OUT", "xrpepe_mainnet_wallets.json")).resolve()
+    out_file = Path(os.getenv("WALLET_OUT", "xrpascend_mainnet_wallets.json")).resolve()
     payload = {
         "issuer": {
             "classic_address": issuer.classic_address,
@@ -26,7 +26,7 @@ def main():
     print("Fund these two addresses with XRP before launching:")
     print(f"ISSUER_ADDRESS={issuer.classic_address}")
     print(f"HOT_ADDRESS={hot.classic_address}")
-    print("Then set ISSUER_SEED and HOT_SEED as environment variables and run launch_xrpepe.py with XRPL_NETWORK=mainnet.")
+    print("Then set ISSUER_SEED and HOT_SEED as environment variables and run launch_xrpascend.py with XRPL_NETWORK=mainnet.")
 
 
 if __name__ == "__main__":

@@ -10,13 +10,13 @@ from xrpl.transaction import submit_and_wait
 from xrpl.utils import str_to_hex
 from xrpl.wallet import Wallet, generate_faucet_wallet
 
-TOKEN_NAME = "XRpepe"
-TOKEN_SYMBOL = "XRPEPE"
+TOKEN_NAME = "XRPASCEND"
+TOKEN_SYMBOL = "XRPASCEND"
 TOKEN_SUPPLY = "1000000000"
 TOKEN_CODE = (str_to_hex(TOKEN_SYMBOL).upper() + ("0" * 40))[:40]
 TESTNET_RPC = "https://s.altnet.rippletest.net:51234"
 MAINNET_RPC = "https://xrplcluster.com"
-OUT_FILE = "xrpepe_launch_output.json"
+OUT_FILE = "xrpascend_launch_output.json"
 
 
 def submit_checked(client: JsonRpcClient, wallet: Wallet, tx):
@@ -59,13 +59,13 @@ def get_wallets(client: JsonRpcClient, network: str):
             "Mainnet launch requires ISSUER_SEED and HOT_SEED to be set in environment variables."
         )
 
-    issuer_wallet = generate_faucet_wallet(client, usage_context="xrpepe-issuer")
-    hot_wallet = generate_faucet_wallet(client, usage_context="xrpepe-hot")
+    issuer_wallet = generate_faucet_wallet(client, usage_context="xrpascend-issuer")
+    hot_wallet = generate_faucet_wallet(client, usage_context="xrpascend-hot")
     return issuer_wallet, hot_wallet, True
 
 
 def save_wallets_if_generated(issuer_wallet: Wallet, hot_wallet: Wallet):
-    out_path = Path(os.getenv("WALLET_OUT", "xrpepe_wallets.json")).resolve()
+    out_path = Path(os.getenv("WALLET_OUT", "xrpascend_wallets.json")).resolve()
     payload = {
         "issuer": {
             "classic_address": issuer_wallet.classic_address,
@@ -207,7 +207,7 @@ def main():
             tx_hashes,
         ),
     }
-    out_file = Path(os.getenv("XRPEPE_OUT_FILE", OUT_FILE)).resolve()
+    out_file = Path(os.getenv("XRPASCEND_OUT_FILE", OUT_FILE)).resolve()
     out_file.write_text(json.dumps(summary, indent=2), encoding="utf-8")
     print(f"Saved launch summary to: {out_file}")
     print(json.dumps(summary, indent=2))

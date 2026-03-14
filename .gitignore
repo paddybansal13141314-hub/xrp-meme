@@ -1,8 +1,8 @@
 *.seed
 *.secrets
 *_wallets.json
-xrpepe_wallets.json
-xrpepe_mainnet_wallets.json
+xrpascend_wallets.json
+xrpascend_mainnet_wallets.json
 .venv/
 __pycache__/
 *.pyc

@@ -1,15 +1,15 @@
-Subject: XRpepe (XRPEPE) listing / tracking request
+Subject: XRPASCEND (XRPASCEND) listing / tracking request
 
 Hello team,
 
-We launched XRpepe on XRPL and would like to request tracking/listing support.
+We launched XRPASCEND on XRPL and would like to request tracking/listing support.
 
 Token details:
-- Name: XRpepe
-- Symbol: XRPEPE
+- Name: XRPASCEND
+- Symbol: XRPASCEND
 - Network: XRPL
 - Supply: 1,000,000,000
-- Currency code (hex): 5852504550450000000000000000000000000000
+- Currency code (hex): 585250415343454E440000000000000000000000
 
 On-ledger references:
 - Issuer address: <issuer_address>

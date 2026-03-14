@@ -1,0 +1,37 @@
+{
+  "network": {
+    "name": "XRPL Mainnet",
+    "rpc": "https://xrplcluster.com"
+  },
+  "token": {
+    "name": "XRPASCEND",
+    "symbol": "XRPASCEND",
+    "currency_code_hex": "585250415343454E440000000000000000000000",
+    "supply_issued": "1000000000"
+  },
+  "accounts": {
+    "issuer_address": "rPSAUjfHEYWy6nzKQdaUuK9TZJUJV76V6C",
+    "hot_wallet_address": "rK3fAsqae8Hndi6P7cu9fU1hSPL9Pbpder"
+  },
+  "transactions": {
+    "accountset_default_ripple": null,
+    "trustset_hot_wallet": null,
+    "payment_issue_supply": null
+  },
+  "explorer_links": {
+    "issuer_account": "https://xrpscan.com/account/rPSAUjfHEYWy6nzKQdaUuK9TZJUJV76V6C",
+    "hot_wallet_account": "https://xrpscan.com/account/rK3fAsqae8Hndi6P7cu9fU1hSPL9Pbpder"
+  },
+  "verification": {
+    "hot_wallet_token_balance": null
+  },
+  "mainnet_status": {
+    "status": "pending_funding",
+    "next_step": "Fund issuer and hot wallets on XRPL mainnet, then run launch_xrpascend.py with XRPL_NETWORK=mainnet."
+  },
+  "notes": [
+    "Wallet seeds are intentionally excluded from this repository file.",
+    "Launcher script is included as launch_xrpascend.py.",
+    "This file now tracks XRPASCEND mainnet launch status."
+  ]
+}
