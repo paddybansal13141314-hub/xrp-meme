@@ -1,0 +1,28 @@
+{
+  "network": {
+    "name": "XRPL Testnet",
+    "rpc": "https://s.altnet.rippletest.net:51234"
+  },
+  "token": {
+    "name": "XRpepe",
+    "symbol": "XRPEPE",
+    "currency_code_hex": "5852504550450000000000000000000000000000",
+    "supply_issued": "1000000000"
+  },
+  "accounts": {
+    "issuer_address": "rMmmkT4jxpWrdqrWkyYQR5WhZG322FmbHo",
+    "hot_wallet_address": "rHewnMPEeQ1bxQPDjkhxhzoV7buGCRJZot"
+  },
+  "transactions": {
+    "accountset_default_ripple": "6A3D46B821552D7DA88BC3CA60B364525DC3999347783A0AA7C0CC0EBB113E73",
+    "trustset_hot_wallet": "58481710EDA98A262491F5A0FD8602553E0E56D186C1057CEF02E625A6ECD832",
+    "payment_issue_supply": "60A322296D5CF5CB0AC2F3703BFE1BD7F5F464042D27CDDBCE5E1B5A2B2451F3"
+  },
+  "verification": {
+    "hot_wallet_token_balance": "1000000000"
+  },
+  "notes": [
+    "Wallet seeds are intentionally excluded from this repository file.",
+    "Launcher script is included as launch_xrpepe.py."
+  ]
+}
