@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" role="img" aria-labelledby="title desc">
+  <title id="title">XRPASCEND Coin Badge</title>
+  <desc id="desc">Coin-style circular badge with XRPASCEND icon and label.</desc>
+  <defs>
+    <radialGradient id="coinCore" cx="34%" cy="28%" r="80%">
+      <stop offset="0%" stop-color="#1A346F"/>
+      <stop offset="58%" stop-color="#101E46"/>
+      <stop offset="100%" stop-color="#0A1026"/>
+    </radialGradient>
+    <linearGradient id="ring" x1="120" y1="120" x2="1080" y2="1080" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#7DD3FC"/>
+      <stop offset="50%" stop-color="#60A5FA"/>
+      <stop offset="100%" stop-color="#A78BFA"/>
+    </linearGradient>
+    <linearGradient id="mark" x1="420" y1="820" x2="780" y2="290" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#67E8F9"/>
+      <stop offset="100%" stop-color="#C4B5FD"/>
+    </linearGradient>
+    <filter id="ringGlow" x="-15%" y="-15%" width="130%" height="130%">
+      <feGaussianBlur stdDeviation="7"/>
+    </filter>
+  </defs>
+  <circle cx="600" cy="600" r="560" fill="#040712"/>
+  <circle cx="600" cy="600" r="524" fill="url(#coinCore)"/>
+  <circle cx="600" cy="600" r="524" fill="none" stroke="url(#ring)" stroke-width="18"/>
+  <circle cx="600" cy="600" r="468" fill="none" stroke="#93C5FD" stroke-opacity="0.2" stroke-width="6"/>
+  <circle cx="600" cy="600" r="560" fill="none" stroke="url(#ring)" stroke-opacity="0.35" stroke-width="8" filter="url(#ringGlow)"/>
+  <g fill="none" stroke="url(#mark)" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M420 820 L600 380 L780 820" stroke-width="64"/>
+    <path d="M490 642 H710" stroke-width="56"/>
+    <path d="M600 864 V412" stroke-width="30"/>
+    <path d="M530 486 L600 408 L670 486" stroke-width="30"/>
+  </g>
+  <text x="600" y="1010" font-size="82" text-anchor="middle" fill="#E2E8F0" font-family="Inter, Segoe UI, Arial, sans-serif" font-weight="700" letter-spacing="4">XRPASCEND</text>
+  <text x="600" y="1080" font-size="32" text-anchor="middle" fill="#93C5FD" font-family="Inter, Segoe UI, Arial, sans-serif" letter-spacing="8">XRPL • MEME TOKEN</text>
+</svg>

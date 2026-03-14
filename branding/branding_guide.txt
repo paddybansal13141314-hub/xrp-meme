@@ -1,0 +1,28 @@
+XRPASCEND Logo Kit
+
+Files
+- logo_xrpascend_mark.svg
+  Best for profile icons, wallet icons, and token list thumbnails.
+- logo_xrpascend_badge.svg
+  Best for announcements, campaign banners, and community graphics.
+- logo_xrpascend_wordmark.svg
+  Best for website hero sections and X header/banner usage.
+
+Color Palette
+- Midnight: #0B1020
+- Royal Blue: #1A2C64
+- Electric Blue: #60A5FA
+- Cyan Accent: #67E8F9
+- Violet Accent: #C4B5FD
+- Light Text: #E2E8F0
+
+Design Intent
+- Upward arrow integrated with an 'A' shape communicates growth ("ascend").
+- Circular forms keep it token/coin-native.
+- Blue-violet gradients tie to XRPL/fintech visual language.
+
+Quick Usage Rules
+- Keep clear space around logo equal to at least 15% of logo width.
+- Do not stretch or rotate the logo.
+- Prefer dark backgrounds for maximum contrast.
+- For small avatars, use the mark only (logo_xrpascend_mark.svg).

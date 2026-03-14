@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2200 720" role="img" aria-labelledby="title desc">
+  <title id="title">XRPASCEND Wordmark</title>
+  <desc id="desc">Horizontal logo lockup with symbol and brand text.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="2200" y2="720" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#060B1B"/>
+      <stop offset="100%" stop-color="#0E183A"/>
+    </linearGradient>
+    <linearGradient id="symbol" x1="160" y1="600" x2="620" y2="120" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#67E8F9"/>
+      <stop offset="55%" stop-color="#60A5FA"/>
+      <stop offset="100%" stop-color="#C4B5FD"/>
+    </linearGradient>
+    <linearGradient id="name" x1="760" y1="170" x2="1900" y2="430" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#E2E8F0"/>
+      <stop offset="100%" stop-color="#93C5FD"/>
+    </linearGradient>
+  </defs>
+  <rect width="2200" height="720" rx="64" fill="url(#bg)"/>
+  <circle cx="360" cy="360" r="238" fill="none" stroke="#93C5FD" stroke-opacity="0.2" stroke-width="5"/>
+  <g fill="none" stroke="url(#symbol)" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M178 560 L360 170 L542 560" stroke-width="56"/>
+    <path d="M252 410 H468" stroke-width="48"/>
+    <path d="M360 592 V206" stroke-width="24"/>
+    <path d="M298 276 L360 206 L422 276" stroke-width="24"/>
+  </g>
+  <text x="760" y="360" font-size="170" fill="url(#name)" font-family="Inter, Segoe UI, Arial, sans-serif" font-weight="800" letter-spacing="6">XRPASCEND</text>
+  <text x="760" y="450" font-size="50" fill="#7DD3FC" font-family="Inter, Segoe UI, Arial, sans-serif" font-weight="500" letter-spacing="10">RISE WITH THE LEDGER</text>
+</svg>
