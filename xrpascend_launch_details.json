@@ -4,11 +4,16 @@
     "rpc": "https://xrplcluster.com"
   },
   "xrp_ledger_toml": {
-    "visibility": "masked",
-    "domain_set_tx_hash": "DF74BF7E45320FD63764425B4F8592CA668044EE0BFDF4C3859A97F83712C166",
+    "visibility": "public",
+    "domain": "paddybansal13141314-hub.github.io",
+    "domain_hex": "706164647962616e73616c31333134313331342d6875622e6769746875622e696f",
+    "url": "https://paddybansal13141314-hub.github.io/.well-known/xrp-ledger.toml",
+    "logo_url": "https://paddybansal13141314-hub.github.io/branding/logo_xrpascend_mark.svg",
+    "domain_set_tx_hash": "6E7F329E470F0C794B6D2779A9268BA22C6F3D9DB201798AB4175642E453EF6F",
+    "domain_set_tx_hash_initial": "DF74BF7E45320FD63764425B4F8592CA668044EE0BFDF4C3859A97F83712C166",
     "domain_clear_tx_hash": "40051E4037CC60A85E919ADF3885B570ACA7010E1D33F0F72A3B4F997E8A0EA2",
-    "url_status_after_masking": 404,
-    "notes": "Issuer domain cleared and hosted xrp-ledger.toml removed from public endpoint."
+    "url_status_after_reenable": 200,
+    "notes": "Issuer domain restored and xrp-ledger.toml re-published for wallet logo discovery."
   },
   "token": {
     "name": "XRPASCEND",
@@ -28,6 +33,7 @@
     "payment_issue_supply": "5BFDC99A69D5EAF3630589E4989737DDAE1641F4BFABB2412D954AF4189AD268",
     "amm_create": "EB67D8B72CE882C4ABF4CCBBC8DF3C92477810CB1C0CA59AC908D15FD83D95A5",
     "domain_accountset": "DF74BF7E45320FD63764425B4F8592CA668044EE0BFDF4C3859A97F83712C166",
+    "domain_accountset_reenable": "6E7F329E470F0C794B6D2779A9268BA22C6F3D9DB201798AB4175642E453EF6F",
     "domain_clear_accountset": "40051E4037CC60A85E919ADF3885B570ACA7010E1D33F0F72A3B4F997E8A0EA2"
   },
   "explorer_links": {
@@ -39,6 +45,7 @@
     "payment_issue_supply": "https://xrpscan.com/tx/5BFDC99A69D5EAF3630589E4989737DDAE1641F4BFABB2412D954AF4189AD268",
     "amm_create": "https://xrpscan.com/tx/EB67D8B72CE882C4ABF4CCBBC8DF3C92477810CB1C0CA59AC908D15FD83D95A5",
     "domain_accountset": "https://xrpscan.com/tx/DF74BF7E45320FD63764425B4F8592CA668044EE0BFDF4C3859A97F83712C166",
+    "domain_accountset_reenable": "https://xrpscan.com/tx/6E7F329E470F0C794B6D2779A9268BA22C6F3D9DB201798AB4175642E453EF6F",
     "domain_clear_accountset": "https://xrpscan.com/tx/40051E4037CC60A85E919ADF3885B570ACA7010E1D33F0F72A3B4F997E8A0EA2"
   },
   "amm_settings": {
@@ -49,9 +56,10 @@
     "trading_fee": 500
   },
   "verification": {
-    "live_status_check_utc": "2026-03-14T08:12:22Z",
+    "live_status_check_utc": "2026-03-14T08:26:40Z",
     "buyable_now": true,
-    "issuer_domain_present": false,
+    "issuer_domain_present": true,
+    "wallet_logo_discovery_enabled": true,
     "price_snapshot": {
       "xrp_usd_reference": "1.4",
       "price_xrp_per_token": "0.000000117145358181",
