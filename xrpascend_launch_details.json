@@ -3,6 +3,13 @@
     "name": "XRPL Mainnet",
     "rpc": "https://xrplcluster.com"
   },
+  "xrp_ledger_toml": {
+    "domain": "paddybansal13141314-hub.github.io",
+    "domain_hex": "706164647962616e73616c31333134313331342d6875622e6769746875622e696f",
+    "url": "https://paddybansal13141314-hub.github.io/.well-known/xrp-ledger.toml",
+    "logo_url": "https://paddybansal13141314-hub.github.io/branding/logo_xrpascend_mark.svg",
+    "domain_set_tx_hash": "DF74BF7E45320FD63764425B4F8592CA668044EE0BFDF4C3859A97F83712C166"
+  },
   "token": {
     "name": "XRPASCEND",
     "symbol": "XRPASCEND",
@@ -18,7 +25,8 @@
     "accountset_default_ripple": "92849A08B7E5868DE70A35EF5FDD459F6FB7D43A3B01633B18411B3714F04F9E",
     "trustset_hot_wallet": "519417DBCD1AFBEEB8AB65BEF50BBAA7DA86BCDF07CCEBD2BDADE0491FDCAABB",
     "payment_issue_supply": "5BFDC99A69D5EAF3630589E4989737DDAE1641F4BFABB2412D954AF4189AD268",
-    "amm_create": "EB67D8B72CE882C4ABF4CCBBC8DF3C92477810CB1C0CA59AC908D15FD83D95A5"
+    "amm_create": "EB67D8B72CE882C4ABF4CCBBC8DF3C92477810CB1C0CA59AC908D15FD83D95A5",
+    "domain_accountset": "DF74BF7E45320FD63764425B4F8592CA668044EE0BFDF4C3859A97F83712C166"
   },
   "explorer_links": {
     "issuer_account": "https://xrpscan.com/account/rPSAUjfHEYWy6nzKQdaUuK9TZJUJV76V6C",
@@ -27,7 +35,8 @@
     "accountset_default_ripple": "https://xrpscan.com/tx/92849A08B7E5868DE70A35EF5FDD459F6FB7D43A3B01633B18411B3714F04F9E",
     "trustset_hot_wallet": "https://xrpscan.com/tx/519417DBCD1AFBEEB8AB65BEF50BBAA7DA86BCDF07CCEBD2BDADE0491FDCAABB",
     "payment_issue_supply": "https://xrpscan.com/tx/5BFDC99A69D5EAF3630589E4989737DDAE1641F4BFABB2412D954AF4189AD268",
-    "amm_create": "https://xrpscan.com/tx/EB67D8B72CE882C4ABF4CCBBC8DF3C92477810CB1C0CA59AC908D15FD83D95A5"
+    "amm_create": "https://xrpscan.com/tx/EB67D8B72CE882C4ABF4CCBBC8DF3C92477810CB1C0CA59AC908D15FD83D95A5",
+    "domain_accountset": "https://xrpscan.com/tx/DF74BF7E45320FD63764425B4F8592CA668044EE0BFDF4C3859A97F83712C166"
   },
   "amm_settings": {
     "initial_liquidity": {
@@ -52,7 +61,7 @@
   },
   "mainnet_status": {
     "status": "launched_with_amm",
-    "next_step": "Optional: add more liquidity, publish xrp-ledger.toml, and request wallet/indexer tracking."
+    "next_step": "Optional: add more liquidity and submit listings/indexer requests with issuer + AMM references."
   },
   "notes": [
     "Wallet seeds are intentionally excluded from this repository file.",
