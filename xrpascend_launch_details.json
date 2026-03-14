@@ -11,27 +11,52 @@
   },
   "accounts": {
     "issuer_address": "rPSAUjfHEYWy6nzKQdaUuK9TZJUJV76V6C",
-    "hot_wallet_address": "rK3fAsqae8Hndi6P7cu9fU1hSPL9Pbpder"
+    "hot_wallet_address": "rK3fAsqae8Hndi6P7cu9fU1hSPL9Pbpder",
+    "amm_account": "rP5yLGXrowLXCKt36mrpNQFxTFqxpBfX5n"
   },
   "transactions": {
-    "accountset_default_ripple": null,
-    "trustset_hot_wallet": null,
-    "payment_issue_supply": null
+    "accountset_default_ripple": "92849A08B7E5868DE70A35EF5FDD459F6FB7D43A3B01633B18411B3714F04F9E",
+    "trustset_hot_wallet": "519417DBCD1AFBEEB8AB65BEF50BBAA7DA86BCDF07CCEBD2BDADE0491FDCAABB",
+    "payment_issue_supply": "5BFDC99A69D5EAF3630589E4989737DDAE1641F4BFABB2412D954AF4189AD268",
+    "amm_create": "EB67D8B72CE882C4ABF4CCBBC8DF3C92477810CB1C0CA59AC908D15FD83D95A5"
   },
   "explorer_links": {
     "issuer_account": "https://xrpscan.com/account/rPSAUjfHEYWy6nzKQdaUuK9TZJUJV76V6C",
-    "hot_wallet_account": "https://xrpscan.com/account/rK3fAsqae8Hndi6P7cu9fU1hSPL9Pbpder"
+    "hot_wallet_account": "https://xrpscan.com/account/rK3fAsqae8Hndi6P7cu9fU1hSPL9Pbpder",
+    "amm_account": "https://xrpscan.com/account/rP5yLGXrowLXCKt36mrpNQFxTFqxpBfX5n",
+    "accountset_default_ripple": "https://xrpscan.com/tx/92849A08B7E5868DE70A35EF5FDD459F6FB7D43A3B01633B18411B3714F04F9E",
+    "trustset_hot_wallet": "https://xrpscan.com/tx/519417DBCD1AFBEEB8AB65BEF50BBAA7DA86BCDF07CCEBD2BDADE0491FDCAABB",
+    "payment_issue_supply": "https://xrpscan.com/tx/5BFDC99A69D5EAF3630589E4989737DDAE1641F4BFABB2412D954AF4189AD268",
+    "amm_create": "https://xrpscan.com/tx/EB67D8B72CE882C4ABF4CCBBC8DF3C92477810CB1C0CA59AC908D15FD83D95A5"
+  },
+  "amm_settings": {
+    "initial_liquidity": {
+      "xrp": "20",
+      "token": "200000000"
+    },
+    "trading_fee": 500
   },
   "verification": {
-    "hot_wallet_token_balance": null
+    "hot_wallet_token_balance_after_issuance": "1000000000",
+    "hot_wallet_token_balance_after_amm_create": "800000000",
+    "amm_pool_balances": {
+      "xrp_drops": "22000000",
+      "xrp": "22",
+      "token": "181900864.0291042",
+      "lp_token": {
+        "currency": "036C0B9FF076F8C35B47B93C8859D0211DC052D8",
+        "issuer": "rP5yLGXrowLXCKt36mrpNQFxTFqxpBfX5n",
+        "value": "63245553.20336755"
+      }
+    }
   },
   "mainnet_status": {
-    "status": "pending_funding",
-    "next_step": "Fund issuer and hot wallets on XRPL mainnet, then run launch_xrpascend.py with XRPL_NETWORK=mainnet."
+    "status": "launched_with_amm",
+    "next_step": "Optional: add more liquidity, publish xrp-ledger.toml, and request wallet/indexer tracking."
   },
   "notes": [
     "Wallet seeds are intentionally excluded from this repository file.",
     "Launcher script is included as launch_xrpascend.py.",
-    "This file now tracks XRPASCEND mainnet launch status."
+    "This file tracks live XRPASCEND mainnet issuance and AMM status."
   ]
 }
