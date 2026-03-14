@@ -7,6 +7,7 @@ We launched XRPASCEND on XRPL and would like to request tracking/listing support
 Token details:
 - Name: XRPASCEND
 - Symbol: XRPASCEND
+- Summary: Together we Ascend with XRP.
 - Network: XRPL
 - Supply: 1,000,000,000
 - Currency code (hex): 585250415343454E440000000000000000000000

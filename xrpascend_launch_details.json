@@ -13,6 +13,7 @@
   "token": {
     "name": "XRPASCEND",
     "symbol": "XRPASCEND",
+    "summary": "Together we Ascend with XRP.",
     "currency_code_hex": "585250415343454E440000000000000000000000",
     "supply_issued": "1000000000"
   },
@@ -46,8 +47,15 @@
     "trading_fee": 500
   },
   "verification": {
+    "live_status_check_utc": "2026-03-14T08:04:03Z",
+    "buyable_now": true,
     "hot_wallet_token_balance_after_issuance": "1000000000",
     "hot_wallet_token_balance_after_amm_create": "800000000",
+    "amm_pool_balances_latest": {
+      "xrp": "21.661477",
+      "token": "184911099.6491073",
+      "trading_fee": 500
+    },
     "amm_pool_balances": {
       "xrp_drops": "22000000",
       "xrp": "22",

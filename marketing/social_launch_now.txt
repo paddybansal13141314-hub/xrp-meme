@@ -1,0 +1,54 @@
+XRPASCEND Social Launch Now
+Summary line: Together we Ascend with XRP.
+
+X Launch Post (copy/paste now)
+XRPASCEND is live on XRPL.
+Together we Ascend with XRP.
+
+Token: XRPASCEND
+Supply: 1,000,000,000
+Issuer: rPSAUjfHEYWy6nzKQdaUuK9TZJUJV76V6C
+AMM Pool: rP5yLGXrowLXCKt36mrpNQFxTFqxpBfX5n
+
+Buy/verify links:
+- Issuer: https://xrpscan.com/account/rPSAUjfHEYWy6nzKQdaUuK9TZJUJV76V6C
+- AMM: https://xrpscan.com/account/rP5yLGXrowLXCKt36mrpNQFxTFqxpBfX5n
+- Metadata: https://paddybansal13141314-hub.github.io/.well-known/xrp-ledger.toml
+
+#XRPL #XRP #XRPASCEND #TogetherWeAscend #memecoin #crypto
+
+X Thread Starter
+1) XRPASCEND is live on XRPL. Together we Ascend with XRP.
+2) Supply: 1,000,000,000 | Symbol: XRPASCEND
+3) On-chain proof:
+   - Issuance tx: https://xrpscan.com/tx/5BFDC99A69D5EAF3630589E4989737DDAE1641F4BFABB2412D954AF4189AD268
+   - AMM tx: https://xrpscan.com/tx/EB67D8B72CE882C4ABF4CCBBC8DF3C92477810CB1C0CA59AC908D15FD83D95A5
+4) Metadata + branding:
+   https://paddybansal13141314-hub.github.io/.well-known/xrp-ledger.toml
+5) DYOR. Memecoins are volatile.
+
+Telegram Announcement
+XRPASCEND is now live on XRPL.
+Together we Ascend with XRP.
+Live links:
+- Issuer: https://xrpscan.com/account/rPSAUjfHEYWy6nzKQdaUuK9TZJUJV76V6C
+- AMM: https://xrpscan.com/account/rP5yLGXrowLXCKt36mrpNQFxTFqxpBfX5n
+- Metadata: https://paddybansal13141314-hub.github.io/.well-known/xrp-ledger.toml
+
+Discord Announcement
+@everyone XRPASCEND is officially live on XRPL.
+Together we Ascend with XRP.
+Check issuer, AMM pool, and metadata links in #announcements.
+
+Reddit Post Title
+[Launch] XRPASCEND is live on XRPL — Together we Ascend with XRP
+
+Reddit Post Body
+XRPASCEND is now live on XRPL mainnet.
+Summary: Together we Ascend with XRP.
+Public references:
+- Issuer: https://xrpscan.com/account/rPSAUjfHEYWy6nzKQdaUuK9TZJUJV76V6C
+- AMM Pool: https://xrpscan.com/account/rP5yLGXrowLXCKt36mrpNQFxTFqxpBfX5n
+- Metadata: https://paddybansal13141314-hub.github.io/.well-known/xrp-ledger.toml
+
+Risk note: memecoins are volatile; do your own research.
