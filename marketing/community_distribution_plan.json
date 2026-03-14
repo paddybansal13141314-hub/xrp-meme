@@ -1,0 +1,71 @@
+{
+  "goal": "Build early awareness, trust, and repeat engagement for XRpepe launch.",
+  "channels": [
+    {
+      "name": "X (Twitter)",
+      "cadence": "2-3 posts/day for first 14 days",
+      "content_types": [
+        "launch updates",
+        "meme visuals",
+        "on-chain transparency snapshots",
+        "community polls"
+      ]
+    },
+    {
+      "name": "Telegram",
+      "cadence": "daily updates",
+      "content_types": [
+        "announcements",
+        "FAQ",
+        "moderated community chat",
+        "event reminders"
+      ]
+    },
+    {
+      "name": "Discord",
+      "cadence": "always-on community support + 3 weekly events",
+      "content_types": [
+        "alpha/dev updates",
+        "meme competitions",
+        "AMA sessions"
+      ]
+    },
+    {
+      "name": "Reddit",
+      "cadence": "2-3 quality posts/week",
+      "content_types": [
+        "launch story",
+        "progress recaps",
+        "community highlights"
+      ]
+    }
+  ],
+  "launch_week_plan": {
+    "day_1": "Launch post, wallet+tx proof, website/profile update, pinned thread.",
+    "day_2": "Meme challenge kickoff + creator outreach.",
+    "day_3": "Transparency update: holder growth and liquidity snapshot.",
+    "day_4": "Community AMA on X Spaces/Discord.",
+    "day_5": "Partner/collab teaser and giveaway rules.",
+    "day_6": "Recap thread and best community memes.",
+    "day_7": "Week-1 report with clear next milestones."
+  },
+  "creator_outreach_targets": [
+    "XRPL-focused creators",
+    "meme page admins",
+    "micro-influencers with high engagement",
+    "community moderators in crypto groups"
+  ],
+  "kpis": [
+    "post impressions",
+    "engagement rate",
+    "new followers",
+    "community join rate",
+    "holder count trend",
+    "daily on-chain volume"
+  ],
+  "compliance_notes": [
+    "Do not promise guaranteed returns.",
+    "Clearly label promotions, partnerships, and paid endorsements.",
+    "Avoid misleading statements about utility, liquidity, or roadmap."
+  ]
+}

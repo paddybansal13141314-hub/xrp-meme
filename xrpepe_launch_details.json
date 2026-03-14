@@ -18,8 +18,19 @@
     "trustset_hot_wallet": "58481710EDA98A262491F5A0FD8602553E0E56D186C1057CEF02E625A6ECD832",
     "payment_issue_supply": "60A322296D5CF5CB0AC2F3703BFE1BD7F5F464042D27CDDBCE5E1B5A2B2451F3"
   },
+  "explorer_links": {
+    "issuer_account": "https://testnet.xrpl.org/accounts/rMmmkT4jxpWrdqrWkyYQR5WhZG322FmbHo",
+    "hot_wallet_account": "https://testnet.xrpl.org/accounts/rHewnMPEeQ1bxQPDjkhxhzoV7buGCRJZot",
+    "accountset_default_ripple": "https://testnet.xrpl.org/transactions/6A3D46B821552D7DA88BC3CA60B364525DC3999347783A0AA7C0CC0EBB113E73",
+    "trustset_hot_wallet": "https://testnet.xrpl.org/transactions/58481710EDA98A262491F5A0FD8602553E0E56D186C1057CEF02E625A6ECD832",
+    "payment_issue_supply": "https://testnet.xrpl.org/transactions/60A322296D5CF5CB0AC2F3703BFE1BD7F5F464042D27CDDBCE5E1B5A2B2451F3"
+  },
   "verification": {
     "hot_wallet_token_balance": "1000000000"
+  },
+  "mainnet_status": {
+    "status": "pending",
+    "next_step": "Fund issuer and hot wallets on XRPL mainnet, then run launch_xrpepe.py with XRPL_NETWORK=mainnet."
   },
   "notes": [
     "Wallet seeds are intentionally excluded from this repository file.",

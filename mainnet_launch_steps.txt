@@ -1,0 +1,17 @@
+XRpepe Mainnet Launch Steps
+1) Create wallet file (seeds stay local):
+   python prepare_mainnet_wallets.py
+2) Fund both printed addresses with XRP on XRPL Mainnet.
+3) Set environment variables from the wallet file:
+   - ISSUER_SEED
+   - HOT_SEED
+   - XRPL_NETWORK=mainnet
+4) Run:
+   python launch_xrpepe.py
+5) View current on-ledger token state:
+   python view_xrpepe.py
+6) Open explorer links from xrpepe_launch_output.json.
+
+Important
+- Never commit wallet seed files.
+- Keep issuer and treasury wallets secure and separate.

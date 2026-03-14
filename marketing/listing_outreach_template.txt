@@ -1,0 +1,25 @@
+Subject: XRpepe (XRPEPE) listing / tracking request
+
+Hello team,
+
+We launched XRpepe on XRPL and would like to request tracking/listing support.
+
+Token details:
+- Name: XRpepe
+- Symbol: XRPEPE
+- Network: XRPL
+- Supply: 1,000,000,000
+- Currency code (hex): 5852504550450000000000000000000000000000
+
+On-ledger references:
+- Issuer address: <issuer_address>
+- Treasury/hot address: <hot_address>
+- TrustSet tx: <trustset_hash>
+- Issuance tx: <payment_hash>
+
+Additional info:
+- Official X account: <x_profile_link>
+- Website: <website_link>
+- Contact: <contact_email>
+
+Thanks for your review.
