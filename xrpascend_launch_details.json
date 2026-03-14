@@ -4,11 +4,11 @@
     "rpc": "https://xrplcluster.com"
   },
   "xrp_ledger_toml": {
-    "domain": "paddybansal13141314-hub.github.io",
-    "domain_hex": "706164647962616e73616c31333134313331342d6875622e6769746875622e696f",
-    "url": "https://paddybansal13141314-hub.github.io/.well-known/xrp-ledger.toml",
-    "logo_url": "https://paddybansal13141314-hub.github.io/branding/logo_xrpascend_mark.svg",
-    "domain_set_tx_hash": "DF74BF7E45320FD63764425B4F8592CA668044EE0BFDF4C3859A97F83712C166"
+    "visibility": "masked",
+    "domain_set_tx_hash": "DF74BF7E45320FD63764425B4F8592CA668044EE0BFDF4C3859A97F83712C166",
+    "domain_clear_tx_hash": "40051E4037CC60A85E919ADF3885B570ACA7010E1D33F0F72A3B4F997E8A0EA2",
+    "url_status_after_masking": 404,
+    "notes": "Issuer domain cleared and hosted xrp-ledger.toml removed from public endpoint."
   },
   "token": {
     "name": "XRPASCEND",
@@ -27,7 +27,8 @@
     "trustset_hot_wallet": "519417DBCD1AFBEEB8AB65BEF50BBAA7DA86BCDF07CCEBD2BDADE0491FDCAABB",
     "payment_issue_supply": "5BFDC99A69D5EAF3630589E4989737DDAE1641F4BFABB2412D954AF4189AD268",
     "amm_create": "EB67D8B72CE882C4ABF4CCBBC8DF3C92477810CB1C0CA59AC908D15FD83D95A5",
-    "domain_accountset": "DF74BF7E45320FD63764425B4F8592CA668044EE0BFDF4C3859A97F83712C166"
+    "domain_accountset": "DF74BF7E45320FD63764425B4F8592CA668044EE0BFDF4C3859A97F83712C166",
+    "domain_clear_accountset": "40051E4037CC60A85E919ADF3885B570ACA7010E1D33F0F72A3B4F997E8A0EA2"
   },
   "explorer_links": {
     "issuer_account": "https://xrpscan.com/account/rPSAUjfHEYWy6nzKQdaUuK9TZJUJV76V6C",
@@ -37,7 +38,8 @@
     "trustset_hot_wallet": "https://xrpscan.com/tx/519417DBCD1AFBEEB8AB65BEF50BBAA7DA86BCDF07CCEBD2BDADE0491FDCAABB",
     "payment_issue_supply": "https://xrpscan.com/tx/5BFDC99A69D5EAF3630589E4989737DDAE1641F4BFABB2412D954AF4189AD268",
     "amm_create": "https://xrpscan.com/tx/EB67D8B72CE882C4ABF4CCBBC8DF3C92477810CB1C0CA59AC908D15FD83D95A5",
-    "domain_accountset": "https://xrpscan.com/tx/DF74BF7E45320FD63764425B4F8592CA668044EE0BFDF4C3859A97F83712C166"
+    "domain_accountset": "https://xrpscan.com/tx/DF74BF7E45320FD63764425B4F8592CA668044EE0BFDF4C3859A97F83712C166",
+    "domain_clear_accountset": "https://xrpscan.com/tx/40051E4037CC60A85E919ADF3885B570ACA7010E1D33F0F72A3B4F997E8A0EA2"
   },
   "amm_settings": {
     "initial_liquidity": {
@@ -47,8 +49,15 @@
     "trading_fee": 500
   },
   "verification": {
-    "live_status_check_utc": "2026-03-14T08:04:03Z",
+    "live_status_check_utc": "2026-03-14T08:12:22Z",
     "buyable_now": true,
+    "issuer_domain_present": false,
+    "price_snapshot": {
+      "xrp_usd_reference": "1.4",
+      "price_xrp_per_token": "0.000000117145358181",
+      "price_usd_per_token_approx": "0.000000164003501453",
+      "price_token_per_xrp": "8536403.110882"
+    },
     "hot_wallet_token_balance_after_issuance": "1000000000",
     "hot_wallet_token_balance_after_amm_create": "800000000",
     "amm_pool_balances_latest": {
